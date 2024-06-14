@@ -677,7 +677,6 @@ footer .line-footer p a {
     transition: .2s;
 }
 
-/* botao  da loja*/
 
 section .loja p {
     color:#ffffff ;
@@ -701,4 +700,37 @@ section table {
     
 }
 
+/* botao  da loja*/
 
+
+/* ESTILO DO CABEÇALHO */
+header {
+    padding: 40px 4%;
+}
+
+header>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header nav.menu-desktop a:hover {
+    color: #fff;
+    transform: scale(1.05);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav.menu-desktop ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
